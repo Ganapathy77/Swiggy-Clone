@@ -338,10 +338,18 @@
     font-size: 15px;
     font-weight: 300;
 }
+.footer-li a:hover{
+    font-weight: 600;
+}
 .points img{
     border: 2px solid #808080;
     padding: 10px;
     /* width: 100%; */
     margin: 30px 0 10px 57px;
     border-radius: 10px;
+    transition: transform 0.5s;
+}
+.points img:hover{
+    transform: scale(1.06);
+    cursor: pointer;
 }
